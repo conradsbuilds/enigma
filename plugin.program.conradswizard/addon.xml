@@ -1,0 +1,18 @@
+<addon id="plugin.program.conradswizard" name="[COLOR red][B]Conrads Builds Wizard[/B][/COLOR]" version="2.5.1" provider-name="Conrad Wright">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Welcome to the Conrads Builds Wizard</summary>
+    <description lang="en">This wizard is designed to keep you with the most up to date conrads builds and make sure your device is running smoothly with featuires like save data and maintainance tools</description>
+    <disclaimer lang="en">For help and support ... Please visit our group on Facebook!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
